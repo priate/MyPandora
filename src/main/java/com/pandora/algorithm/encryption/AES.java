@@ -24,8 +24,8 @@ public class AES {
     }
     
     /** the name of the transformation to create a cipher for. */
-//    private static final String TRANSFORMATION = "AES/CBC/PKCS5Padding";
-    private static final String TRANSFORMATION = "AES/CBC/PKCS7Padding";
+    private static final String TRANSFORMATION = "AES/CBC/PKCS5Padding";
+//    private static final String TRANSFORMATION = "AES/CBC/PKCS7Padding";
 
     /** 算法名称 */
     private static final String ALGORITHM_NAME = "AES";
@@ -133,8 +133,7 @@ public class AES {
         return decrypted;
     }
     
-    private static final char[] HEX_DIGITS = { '0', '1', '2', '3', '4', '5',
-		'6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
+    private static final char[] HEX_DIGITS = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
     
     private static String getMD5(String originalString)
 			throws NoSuchAlgorithmException {
