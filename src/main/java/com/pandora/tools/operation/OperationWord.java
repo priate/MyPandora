@@ -1,10 +1,11 @@
-package com.pandora.tools;
+package com.pandora.tools.operation;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import org.apache.poi.hwpf.extractor.WordExtractor;
 import org.apache.poi.util.IOUtils;
@@ -87,6 +88,17 @@ public class OperationWord {
 		}
 	}
 
+	
+	/**
+	 * 清除Word中超链接
+	 * @param content
+	 * @return
+	 */
+	public static String clearHtml(String content){//
+		if(content==null || content.equals(""))
+			return "";
+		return Pattern.compile("HYPERLINK.*?_blank\"").matcher(content).replaceAll("");
+	}
 
 	public static void main(String[] args) {
 		String fileName = "E:\\词条\\load\\儿科词条1--(90)\\儿童矮身材.docx";
