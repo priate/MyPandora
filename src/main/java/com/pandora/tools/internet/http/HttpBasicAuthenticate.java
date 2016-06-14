@@ -6,7 +6,7 @@ import java.net.URL;
 
 import org.apache.commons.codec.binary.Base64;
 
-import com.pandora.utilities.StringUtils;
+import com.pandora.tools.min.StringUtils;
 
 /**
  * 这个验证机制可以针对FTP HTTP 直接要求用户名密码登陆那种页面

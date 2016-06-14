@@ -1,11 +1,11 @@
-package com.pandora.tools;
+package com.pandora.tools.min;
 
 /**
  * 一个日期的工具类 
  * @author C.H.
  * @CreateTime 2016年3月12日 上午2:45:29
  */
-public class DateTools {
+public class DateUtils {
 
 	public static final String FORMAT_DATE_DAY = "yyyy-mm-dd";
 	public static final String FORMAT_DATE_SECOND = "yyyy-mm-dd hh:MM:ss";

@@ -1,4 +1,4 @@
-package com.pandora.tools;
+package com.pandora.tools.analyze;
 
 import java.util.ArrayList;
 import java.util.List;

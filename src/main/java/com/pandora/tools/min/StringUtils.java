@@ -1,4 +1,4 @@
-package com.pandora.utilities;
+package com.pandora.tools.min;
 
 import java.io.BufferedReader;
 import java.io.IOException;
