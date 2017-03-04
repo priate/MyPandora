@@ -1,1 +1,13 @@
-/target/
+.settings/
+.classpath
+.project
+tmp/
+target/
+logs/
+.idea/
+*.iml
+*.ipr
+*.iws
+build/
+p
+bin/
