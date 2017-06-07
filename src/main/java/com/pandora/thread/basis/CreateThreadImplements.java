@@ -17,7 +17,6 @@ public class CreateThreadImplements implements Runnable{
 		tt.test1();
 	}
 
-	
 	//测试随机sleep时间 线程是否正常关闭
 	public void test1(){
 		CreateThreadImplements tt = new CreateThreadImplements();

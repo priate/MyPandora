@@ -7,7 +7,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.pandora.tools.OperationFile;
+import com.pandora.tools.operation.OperationFile;
 
 public class JsoupTest {
 
