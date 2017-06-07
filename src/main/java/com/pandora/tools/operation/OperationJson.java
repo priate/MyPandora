@@ -5,5 +5,4 @@ package com.pandora.tools.operation;
  */
 public class OperationJson {
 
-    public static Gson
 }
