@@ -1,6 +1,7 @@
 package com.pandora.advanced.sort;
 
 /**
+ *  快速排序
  * Created by MyMom on 17/02/23.
  */
 public class QuickSort {
