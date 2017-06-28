@@ -1,4 +1,4 @@
-package com.pandora.thread.basis;
+package com.pandora.basic.thread.basis;
 
 public class WorkerThread implements Runnable {
 

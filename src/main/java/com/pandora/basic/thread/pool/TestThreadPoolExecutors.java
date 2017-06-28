@@ -1,4 +1,4 @@
-package com.pandora.thread.pool;
+package com.pandora.basic.thread.pool;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;

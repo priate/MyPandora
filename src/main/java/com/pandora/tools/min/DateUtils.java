@@ -14,5 +14,15 @@ public class DateUtils {
 	
 	public static final String FORMAT_DATE_INTEGER_DAY = "yyyymmdd";
 	public static final String FORMAT_DATE_INTEGER_SECOND = "yyyymmddhhMMss";
-	
+
+	public static String printConsuming(Long time){
+		time = System.currentTimeMillis() - time;
+		long sss = time % 1000;
+		time = time/1000;
+		long second = time % 60;
+		time = time/60;
+		long minute = time % 60;
+		long hours = time /60;
+		return (hours== 0 ? "" : hours + "小时" ) + minute + "分" + second + "秒" + sss + "毫秒";
+	}
 }
